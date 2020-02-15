@@ -1,0 +1,26 @@
+{
+  "name": "binaryclock",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "postcss src/main.css -o dist/tailwind.css",
+    "watch": "watch 'npm run build:css'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegosiena/binary-clock.git"
+  },
+  "author": "Diego Siena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegosiena/binary-clock/issues"
+  },
+  "homepage": "https://github.com/diegosiena/binary-clock#readme",
+  "dependencies": {
+    "autoprefixer": "^9.7.4",
+    "postcss": "^7.0.26",
+    "tailwindcss": "^1.2.0",
+    "watch": "^1.0.2"
+  }
+}
