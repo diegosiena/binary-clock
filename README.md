@@ -7,7 +7,7 @@ Improvements should come soon.
 
 #### [*Live preview*](https://diegosiena-binaryclock.netlify.com/)
 
-## What it use ?!
+## What it uses ?!
 
 - [TailwindCSS Framework](https://github.com/tailwindcss/tailwindcss)
 
