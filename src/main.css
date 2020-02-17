@@ -5,9 +5,6 @@
 @tailwind utilities;
 
 .bit {
-  @apply rounded-md h-8 w-8 text-lg leading-8 text-center align-middle mb-3;
-}
-
-.bit-value {
-  color: rgba(255, 255, 255, 0.25);
+  @apply rounded-md h-8 w-8 text-lg leading-8 text-center align-middle mb-3 text-gray-400;
+  color: rgb(203, 213, 224, 0.375);
 }
