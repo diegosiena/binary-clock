@@ -4,8 +4,8 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build:css": "postcss src/main.css -o dist/tailwind.css",
-    "watch": "watch 'npm run build:css'"
+    "build": "postcss src/main.css -o dist/tailwind.css",
+    "watch": "postcss src/main.css -o dist/tailwind.css --watch"
   },
   "repository": {
     "type": "git",
@@ -21,6 +21,6 @@
     "autoprefixer": "^9.7.4",
     "postcss": "^7.0.26",
     "tailwindcss": "^1.2.0",
-    "watch": "^1.0.2"
+    "postcss-cli": "^7.1.0"
   }
 }
