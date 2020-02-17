@@ -28,17 +28,20 @@ const app = new Vue({
       this.timeValues.m = time[1][1];
       this.timeValues.S = time[2][0];
       this.timeValues.s = time[2][1];
+    },
+    parseBits(value) {
+      return ("0000" + parseInt(value).toString(2)).slice(-4);
     }
   },
   computed: {
     bitsValues() {
       return {
-        H: ("0000" + parseInt(this.timeValues.H).toString(2)).slice(-4),
-        h: ("0000" + parseInt(this.timeValues.h).toString(2)).slice(-4),
-        M: ("0000" + parseInt(this.timeValues.M).toString(2)).slice(-4),
-        m: ("0000" + parseInt(this.timeValues.m).toString(2)).slice(-4),
-        S: ("0000" + parseInt(this.timeValues.S).toString(2)).slice(-4),
-        s: ("0000" + parseInt(this.timeValues.s).toString(2)).slice(-4)
+        H: this.parseBits(this.timeValues.H),
+        h: this.parseBits(this.timeValues.h),
+        M: this.parseBits(this.timeValues.M),
+        m: this.parseBits(this.timeValues.m),
+        S: this.parseBits(this.timeValues.S),
+        s: this.parseBits(this.timeValues.s),
       };
     }
   }
