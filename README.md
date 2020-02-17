@@ -3,7 +3,9 @@
 # binary-clock
 
 This project is a simple Binary Clock, built with Vue.JS and TailwindCSS, just for practice and have fun in a weekend.
-Improvements should come soon. [*Click here to see it working*](https://diegosiena-binaryclock.netlify.com/)
+Improvements should come soon. 
+
+#### [*Live preview*](https://diegosiena-binaryclock.netlify.com/)
 
 ## What it use ?!
 
